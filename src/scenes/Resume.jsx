@@ -46,12 +46,12 @@ const Resume = () => {
         }}
       >
         <div className=" md:w-4/6 mx-auto mt-28">
-          <h3 className=" text-center text-2xl border-b-2 border-b-solid border-b-gray-400  pb-[30px] font-playfair  text-yellow ">
+          <h3 className=" text-center text-2xl border-b-2 border-b-solid border-b-gray-100  pb-[30px] font-playfair  text-yellow ">
             Education
           </h3>
           <div>
             {/*item 1 */}
-            <div className="border-b-2 border-b-solid border-b-gray-400 relative  ">
+            <div className="border-b-2 border-b-solid border-b-gray-100 relative  ">
               <div
                 className="py-8 px-[30px] "
                 onClick={() => setShowInfoItem1(!showInfoItem1)}

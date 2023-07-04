@@ -98,14 +98,14 @@ const Projects = () => {
             title="Project 1"
             text="React admin dashboard app using React hooks, Material UI, Data Grid, Light & Dark Mode"
             githubLink={"https://github.com/Anwar-kashlan/Dashboard"}
-            demoLink={"https://d-admin-dashboard.netlify.app/"}
+            demoLink={"https://admin-dashboard-ey06.onrender.com/"}
             isResponsive={!isResponsive}
           />
           <Project
             title="Project 2"
             text="Amazon Clone (E-commerce) With React hooks and Firebase for Authentication"
             githubLink={"https://github.com/Anwar-kashlan/amazon-clone"}
-            demoLink={"https://d-amazon-clone.netlify.app/"}
+            demoLink={"https://amazon-clone-lx84.onrender.com/"}
             isResponsive={!isResponsive}
           />
 
