@@ -16,7 +16,7 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title, text, githubLink, demoLink, isResponsive }) => {
+const Project = ({ title, text, demoLink, isResponsive }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -33,13 +33,8 @@ const Project = ({ title, text, githubLink, demoLink, isResponsive }) => {
           {isResponsive ? "Responsive" : "Not responsive yet"}
         </p>
         <p className="mt-2">{text}</p>
-        <div className=" w-48 flex justify-between items-center mt-5">
-          <div className=" py-2 px-5 bg-blue rounded-full text-gray-100">
-            <a href={githubLink} rel="noreferrer" target="_blank">
-              Github
-            </a>
-          </div>
-          <div className=" py-2 px-5 bg-blue rounded-full text-gray-100">
+        <div className=" w-48 flex justify-center  items-center mt-5">
+          <div className=" py-2 px-5 bg-secondary-highlight rounded-full text-gray-100">
             <a href={demoLink} rel="noreferrer" target="_blank">
               Demo
             </a>
@@ -97,14 +92,12 @@ const Projects = () => {
           <Project
             title="Project 1"
             text="React admin dashboard app using React hooks, Material UI, Data Grid, Light & Dark Mode"
-            githubLink={"https://github.com/Anwar-kashlan/Dashboard"}
             demoLink={"https://admin-dashboard-ey06.onrender.com/"}
             isResponsive={!isResponsive}
           />
           <Project
             title="Project 2"
             text="Amazon Clone (E-commerce) With React hooks and Firebase for Authentication"
-            githubLink={"https://github.com/Anwar-kashlan/amazon-clone"}
             demoLink={"https://amazon-clone-lx84.onrender.com/"}
             isResponsive={!isResponsive}
           />
@@ -113,21 +106,18 @@ const Projects = () => {
           <Project
             title="Project 3"
             text="Elzero Template using pure Html,css and javaScript"
-            githubLink={"https://github.com/Anwar-kashlan/Template-El-Zero"}
             demoLink={"https://anwar-kashlan.github.io/Template-El-Zero/"}
             isResponsive={isResponsive}
           />
           <Project
             title="Project 4"
             text="Kasper Template using pure Html,css and javaScript"
-            githubLink={":https://github.com/Anwar-kashlan/Template-Kasper"}
             demoLink={"https://anwar-kashlan.github.io/Template-Kasper/"}
             isResponsive={isResponsive}
           />
           <Project
             title="Project 5"
             text="Leon Template using pure Html and Css"
-            githubLink={"https://github.com/Anwar-kashlan/Template-Leon"}
             demoLink={"https://anwar-kashlan.github.io/Template-Leon/"}
             isResponsive={isResponsive}
           />
@@ -136,7 +126,6 @@ const Projects = () => {
           <Project
             title="Project 6"
             text="Bondi Template using Bootstrap only"
-            githubLink={"https://github.com/Anwar-kashlan/Template-Bondi"}
             demoLink={"https://anwar-kashlan.github.io/Template-Bondi/"}
             isResponsive={isResponsive}
           />
