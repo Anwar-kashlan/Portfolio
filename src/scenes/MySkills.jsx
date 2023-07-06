@@ -21,11 +21,11 @@ const MySkills = () => {
           }}
         >
           <p className="font-playfair font-semibold text-4xl mb-5">
-            MY <span className="text-red">SKILLS</span>
+            MY <span className="  text-secondary-highlight">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7 text-xl">
-            I'm improving my experience every day
+            I'm improving my experience every day, this journey will never end.
           </p>
         </motion.div>
 
@@ -33,7 +33,7 @@ const MySkills = () => {
           {isAboveLarge ? (
             <div
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
-              before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
+              before:w-full before:h-full before:border-2 before:border-secondary-highlight before:z-[-1]"
             >
               <img
                 alt="skills"
@@ -58,73 +58,91 @@ const MySkills = () => {
           visible: { opacity: 1, x: 0 },
         }}
       >
-        <div className=" grid grid-cols-1 md:w-[55%] sm:w-3/4 xs:w-10/12 mt-20 mx-auto">
-          <div className=" md:py-10 md:px-20 xxs:py-8 xxs:px-6 sm:p-8 sm:my-0 sm:mx-auto md:m-0 rounded-3xl border-[1px] border-solid border-transparent bg-red">
-            <h3 className=" text-center md:text-2xl sm:text-xl mb-9 text-yellow font-playfair">
+        <div className=" grid grid-cols-1 md:w-[55%] sm:w-3/4 xs:w-10/12 mt-14 mx-auto">
+          <div className=" md:py-10 md:px-20 xxs:py-8 xxs:px-6 sm:p-8 sm:my-0 sm:mx-auto md:m-0 rounded-3xl border-[1px] border-solid border-transparent ">
+            <h3 className=" text-center md:text-2xl sm:text-xl mb-9 text-secondary-highlight font-playfair">
               Front-End Development
             </h3>
             <div className=" grid md:grid-cols-3 md:p-0 sm:p-4 xxs:grid-cols-2 gap-10">
               <article className=" flex gap-4">
-                <VerifiedIcon className=" mt-1.5 text-blue" />
+                <VerifiedIcon className=" mt-1.5 text-secondary-highlight" />
                 <div>
                   <h4>Html</h4>
-                  <small className="text-lig">Experience</small>
+                  <small className="text-lig text-primary-highlight">
+                    Experience
+                  </small>
                 </div>
               </article>
               <article className="flex gap-4">
-                <VerifiedIcon className=" mt-1.5  text-blue" />
+                <VerifiedIcon className=" mt-1.5  text-secondary-highlight" />
                 <div>
                   <h4>Css</h4>
-                  <small className="text-lig">Upper Intermediate</small>
+                  <small className="text-lig text-primary-highlight">
+                    Upper Intermediate
+                  </small>
                 </div>
               </article>
               <article className="flex gap-4">
-                <VerifiedIcon className=" mt-1.5 text-blue" />
+                <VerifiedIcon className=" mt-1.5 text-secondary-highlight" />
                 <div>
                   <h4>Sass</h4>
-                  <small className="text-lig">Basic</small>
+                  <small className="text-lig text-primary-highlight">
+                    Basic
+                  </small>
                 </div>
               </article>
               <article className="flex gap-4">
-                <VerifiedIcon className=" mt-1.5 text-blue" />
+                <VerifiedIcon className=" mt-1.5 text-secondary-highlight" />
                 <div>
                   <h4>JavaScript</h4>
-                  <small className="text-lig">Intermediate</small>
+                  <small className="text-lig text-primary-highlight">
+                    Intermediate
+                  </small>
                 </div>
               </article>
               <article className="flex gap-4">
-                <VerifiedIcon className=" mt-1.5 text-blue" />
+                <VerifiedIcon className=" mt-1.5 text-secondary-highlight" />
                 <div>
                   <h4>Typescript</h4>
-                  <small className="text-lig">Basic</small>
+                  <small className="text-lig text-primary-highlight">
+                    Basic
+                  </small>
                 </div>
               </article>
               <article className="flex gap-4">
-                <VerifiedIcon className=" mt-1.5 text-blue" />
+                <VerifiedIcon className=" mt-1.5 text-secondary-highlight" />
                 <div>
                   <h4>Bootstrap</h4>
-                  <small className="text-lig">Intermediate</small>
+                  <small className="text-lig text-primary-highlight">
+                    Intermediate
+                  </small>
                 </div>
               </article>
               <article className="flex gap-4">
-                <VerifiedIcon className=" mt-1.5 text-blue" />
+                <VerifiedIcon className=" mt-1.5 text-secondary-highlight" />
                 <div>
                   <h4>React js</h4>
-                  <small className="text-lig">Intermediate</small>
+                  <small className="text-lig text-primary-highlight">
+                    Intermediate
+                  </small>
                 </div>
               </article>
               <article className="flex gap-4">
-                <VerifiedIcon className=" mt-1.5 text-blue" />
+                <VerifiedIcon className=" mt-1.5 text-secondary-highlight" />
                 <div>
                   <h4>Tailwind</h4>
-                  <small className="text-lig">intermediate</small>
+                  <small className="text-lig text-primary-highlight">
+                    intermediate
+                  </small>
                 </div>
               </article>
               <article className="flex gap-4">
-                <VerifiedIcon className=" mt-1.5 text-blue" />
+                <VerifiedIcon className=" mt-1.5 text-secondary-highlight" />
                 <div>
                   <h4>Git & GitHub</h4>
-                  <small className="text-lig">Basic</small>
+                  <small className="text-lig text-primary-highlight">
+                    Basic
+                  </small>
                 </div>
               </article>
             </div>

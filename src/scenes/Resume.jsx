@@ -23,7 +23,7 @@ const Resume = () => {
         }}
       >
         <div>
-          <p className="font-playfair font-semibold text-4xl text-red">
+          <p className="font-playfair font-semibold text-4xl  text-secondary-highlight">
             RESUME
           </p>
           <div className="flex justify-center mt-5">
@@ -61,7 +61,7 @@ const Resume = () => {
                   style={{
                     transition: "all 1.2s cubic-bezier(0.3,0,0.3,1)",
                   }}
-                  className=" bg-blue border-2 border-solid border-gray-500 text-3xl shadow-sm w-12 h-12 rounded-full absolute -right-6 -bottom-6 z-10 leading-[1.3em] text-center cursor-pointer"
+                  className=" bg-secondary-highlight border-2 border-solid  border-primary-highlight text-3xl shadow-sm w-12 h-12 rounded-full absolute -right-6 -bottom-6 z-10 leading-[1.3em] text-center cursor-pointer"
                 >
                   {showInfoItem1 ? "-" : "+"}
                 </span>
@@ -102,7 +102,7 @@ const Resume = () => {
                   style={{
                     transition: "all 1.2s cubic-bezier(0.3,0,0.3,1)",
                   }}
-                  className=" bg-blue border-2 border-solid border-gray-500 text-3xl shadow-sm w-12 h-12 rounded-full absolute -right-6 -bottom-6 z-10 leading-[1.3em] text-center cursor-pointer"
+                  className=" bg-secondary-highlight border-2 border-solid border-primary-highlight text-3xl shadow-sm w-12 h-12 rounded-full absolute -right-6 -bottom-6 z-10 leading-[1.3em] text-center cursor-pointer"
                 >
                   {showInfoItem2 ? "-" : "+"}
                 </span>
@@ -120,7 +120,7 @@ const Resume = () => {
                   <h3 className="font-playfair xxs:text-lg xs:text-xl ss:text-2xl sm:text-[28px]">
                     Applied College
                   </h3>
-                  <span className="teaxt-cs text-[13px] text-yellow font-bold ">
+                  <span className=" text-[13px] text-yellow font-bold ">
                     2018-2023
                   </span>
                 </div>
@@ -142,7 +142,7 @@ const Resume = () => {
                   style={{
                     transition: "all 1.2s cubic-bezier(0.3,0,0.3,1)",
                   }}
-                  className=" bg-blue border-2 border-solid border-gray-500 text-3xl shadow-sm w-12 h-12 rounded-full absolute -right-6 -bottom-6 z-10 leading-[1.3em] text-center cursor-pointer"
+                  className=" bg-secondary-highlight border-2 border-solid border-primary-highlight text-3xl shadow-sm w-12 h-12 rounded-full absolute -right-6 -bottom-6 z-10 leading-[1.3em] text-center cursor-pointer"
                 >
                   {showInfoItem3 ? "-" : "+"}
                 </span>
