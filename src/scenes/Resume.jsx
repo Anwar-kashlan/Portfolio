@@ -30,9 +30,7 @@ const Resume = () => {
             <LineGradient width="w-1/3" />
           </div>
         </div>
-        <p className="mt-6 mb-10 font-playfair text-2xl">
-          My <span className=" text-yellow">Story</span>
-        </p>
+        <p className="mt-6 mb-10 font-playfair text-2xl">My Story</p>
       </motion.div>
       {/*Resume Items */}
       <motion.div
@@ -46,7 +44,7 @@ const Resume = () => {
         }}
       >
         <div className=" md:w-4/6 mx-auto mt-28">
-          <h3 className=" text-center text-2xl border-b-2 border-b-solid border-b-gray-100  pb-[30px] font-playfair  text-yellow ">
+          <h3 className=" text-center text-2xl border-b-2 border-b-solid border-b-gray-100  pb-[30px] font-playfair  text-secondary-highlight ">
             Education
           </h3>
           <div>
@@ -79,7 +77,7 @@ const Resume = () => {
                   <h3 className="font-playfair xxs:text-lg xs:text-xl ss:text-2xl sm:text-[28px]">
                     Abdullah Al-Tayer
                   </h3>
-                  <span className="text-[13px] text-yellow font-bold ">
+                  <span className="text-[13px] text-secondary-highlight font-bold ">
                     2015-2018
                   </span>
                 </div>
@@ -120,7 +118,7 @@ const Resume = () => {
                   <h3 className="font-playfair xxs:text-lg xs:text-xl ss:text-2xl sm:text-[28px]">
                     Applied College
                   </h3>
-                  <span className=" text-[13px] text-yellow font-bold ">
+                  <span className=" text-[13px] text-secondary-highlight font-bold ">
                     2018-2023
                   </span>
                 </div>
@@ -160,7 +158,7 @@ const Resume = () => {
                   <h3 className="font-playfair xxs:text-lg xs:text-xl ss:text-2xl sm:text-[28px]">
                     Front-End Development
                   </h3>
-                  <span className="teaxt-cs text-[13px] text-yellow font-bold ">
+                  <span className="teaxt-cs text-[13px] text-secondary-highlight font-bold ">
                     +2021
                   </span>
                 </div>
@@ -168,7 +166,11 @@ const Resume = () => {
                   I chose to specialize in the field of web development and
                   studied many courses, and obtained a certificate in HTML, CSS
                   and Javascript for web developers from Coursera{" "}
-                  <a href={Certificate} className=" text-yellow" download>
+                  <a
+                    href={Certificate}
+                    className=" text-secondary-highlight"
+                    download
+                  >
                     <DownloadIcon />
                   </a>
                 </p>
