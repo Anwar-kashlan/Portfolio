@@ -73,7 +73,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
         {!isDesktop && isMenuToggled && (
           <div
             className="fixed right-0 bottom-0 h-full w-[300px]   "
-            style={{ backgroundColor: "rgba(17, 17, 17, 0.60)" }}
+            style={{ backgroundColor: "rgba(17, 17, 17, 0.85)" }}
           >
             {" "}
             {/* CLOSE ICON */}
