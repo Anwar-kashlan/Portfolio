@@ -1038,11 +1038,6 @@ video {
   background-color: rgb(237 237 237 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#242424\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(36 36 36 / var(--tw-bg-opacity));
-}
-
 .bg-red{
   --tw-bg-opacity: 1;
   background-color: rgb(220 68 146 / var(--tw-bg-opacity));
@@ -1306,7 +1301,7 @@ body,
 #root,
 .app {
   height: 100%;
-  background-color: #111;
+  background-color: #222;
   --tw-text-opacity: 1;
   color: rgb(246 241 241 / var(--tw-text-opacity));
   scroll-behavior: smooth;
