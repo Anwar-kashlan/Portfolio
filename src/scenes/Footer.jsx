@@ -9,7 +9,7 @@ const Footer = () => {
           <p className="font-playfair font-semibold text-2xl text-secondary-highlight ">
             Mohammed Anwar Kashlan
           </p>
-          <p className="font-playfair text-md text-secondary-highlight ">
+          <p className="font-playfair text-md  text-primary-text ">
             ©2023 M.A.K. All Rights Reserved.
           </p>
         </div>
