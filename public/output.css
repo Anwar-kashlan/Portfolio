@@ -1231,14 +1231,14 @@ video {
   color: rgb(220 68 146 / var(--tw-text-opacity));
 }
 
-.text-primary-highlight{
-  --tw-text-opacity: 1;
-  color: rgb(20 108 148 / var(--tw-text-opacity));
-}
-
 .text-primary-text{
   --tw-text-opacity: 1;
   color: rgb(246 241 241 / var(--tw-text-opacity));
+}
+
+.text-primary-highlight{
+  --tw-text-opacity: 1;
+  color: rgb(20 108 148 / var(--tw-text-opacity));
 }
 
 .text-deep-blue{

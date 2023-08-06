@@ -41,7 +41,7 @@ const Project = ({ title, text, demoLink, isResponsive }) => {
           </div>
         </div>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -89,46 +89,54 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
+
           <Project
             title="Project 1"
-            text="React admin dashboard app using React hooks, Material UI, Data Grid, Light & Dark Mode"
+            text="React admin dashboard app using React hooks, Material UI, React Router, Data Grid, Light & Dark Mode"
             demoLink={"https://admin-dashboard-ey06.onrender.com/"}
             isResponsive={!isResponsive}
           />
           <Project
             title="Project 2"
+            text="React fitness exercises app with APIs From RapidAPI using React hooks, Material UI & React Router"
+            demoLink={"https://golds-gym.onrender.com/"}
+            isResponsive={isResponsive}
+          />
+          {/* ROW 2 */}
+          <Project
+            title="Project 3"
             text="Amazon Clone (E-commerce) With React hooks and Firebase for Authentication"
             demoLink={"https://amazon-clone-lx84.onrender.com/"}
             isResponsive={!isResponsive}
           />
 
-          {/* ROW 2 */}
           <Project
-            title="Project 3"
+            title="Project 4"
             text="Elzero Template using pure Html,css and javaScript"
             demoLink={"https://anwar-kashlan.github.io/Template-El-Zero/"}
             isResponsive={isResponsive}
           />
           <Project
-            title="Project 4"
+            title="Project 5"
             text="Kasper Template using pure Html,css and javaScript"
             demoLink={"https://anwar-kashlan.github.io/Template-Kasper/"}
             isResponsive={isResponsive}
           />
+          {/* ROW 3 */}
           <Project
-            title="Project 5"
+            title="Project 6"
             text="Leon Template using pure Html and Css"
             demoLink={"https://anwar-kashlan.github.io/Template-Leon/"}
             isResponsive={isResponsive}
           />
 
-          {/* ROW 3 */}
           <Project
-            title="Project 6"
+            title="Project 7"
             text="Bondi Template using Bootstrap only"
             demoLink={"https://anwar-kashlan.github.io/Template-Bondi/"}
             isResponsive={isResponsive}
           />
+
           <div
             className="flex justify-center text-center items-center p-10  bg-secondary-highlight
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
