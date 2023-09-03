@@ -105,7 +105,7 @@ const MySkills = () => {
                 <div>
                   <h4>Typescript</h4>
                   <small className="text-lig text-primary-highlight">
-                    Basic
+                    Intermediate
                   </small>
                 </div>
               </article>
@@ -130,7 +130,7 @@ const MySkills = () => {
               <article className="flex gap-4">
                 <VerifiedIcon className=" mt-1.5 text-secondary-highlight" />
                 <div>
-                  <h4>Tailwind</h4>
+                  <h4>Tailwind & Material UI</h4>
                   <small className="text-lig text-primary-highlight">
                     intermediate
                   </small>
