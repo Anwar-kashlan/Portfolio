@@ -112,21 +112,21 @@ const Projects = () => {
 
           <Project
             title="Project 4"
-            text="Elzero Template using pure Html,css and javaScript"
-            demoLink={"https://anwar-kashlan.github.io/Template-El-Zero/"}
+            text="Hoobank Website with Modern UI UX in React JS with Tailwind"
+            demoLink={"https://hoobank9.netlify.app/"}
             isResponsive={isResponsive}
           />
           <Project
             title="Project 5"
-            text="Kasper Template using pure Html,css and javaScript"
-            demoLink={"https://anwar-kashlan.github.io/Template-Kasper/"}
+            text="Elzero Template using pure Html,css and javaScript"
+            demoLink={"https://anwar-kashlan.github.io/Template-El-Zero/"}
             isResponsive={isResponsive}
           />
           {/* ROW 3 */}
           <Project
             title="Project 6"
-            text="Leon Template using pure Html and Css"
-            demoLink={"https://anwar-kashlan.github.io/Template-Leon/"}
+            text="Kasper Template using pure Html,css and javaScript"
+            demoLink={"https://anwar-kashlan.github.io/Template-Kasper/"}
             isResponsive={isResponsive}
           />
 
