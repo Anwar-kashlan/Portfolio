@@ -98,42 +98,42 @@ const Projects = () => {
           />
           <Project
             title="Project 2"
-            text="React fitness exercises app with APIs From RapidAPI using React hooks, Material UI & React Router"
-            demoLink={"https://golds-gym.onrender.com/"}
+            text="React Responsive Media MERN App with Auth, Likes, Dark Mode ,Redux toolkit , MongoDB, MUI (Front end Part focused)"
+            demoLink={"https://media-app-eta.vercel.app/"}
             isResponsive={isResponsive}
           />
           {/* ROW 2 */}
           <Project
             title="Project 3"
-            text="Amazon Clone (E-commerce) With React hooks and Firebase for Authentication"
-            demoLink={"https://amazon-clone-lx84.onrender.com/"}
-            isResponsive={!isResponsive}
+            text="React fitness exercises app with APIs From RapidAPI using React hooks, Material UI & React Router"
+            demoLink={"https://golds-gym.onrender.com/"}
+            isResponsive={isResponsive}
           />
 
           <Project
             title="Project 4"
-            text="Hoobank Website with Modern UI UX in React JS with Tailwind"
-            demoLink={"https://hoobank9.netlify.app/"}
-            isResponsive={isResponsive}
+            text="Amazon Clone (E-commerce) With React hooks and Firebase for Authentication"
+            demoLink={"https://amazon-clone-lx84.onrender.com/"}
+            isResponsive={!isResponsive}
           />
           <Project
             title="Project 5"
-            text="Elzero Template using pure Html,css and javaScript"
-            demoLink={"https://anwar-kashlan.github.io/Template-El-Zero/"}
+            text="Hoobank Website with Modern UI UX in React JS with Tailwind"
+            demoLink={"https://hoobank9.netlify.app/"}
             isResponsive={isResponsive}
           />
           {/* ROW 3 */}
           <Project
             title="Project 6"
-            text="Kasper Template using pure Html,css and javaScript"
-            demoLink={"https://anwar-kashlan.github.io/Template-Kasper/"}
+            text="Elzero Template using pure Html,css and javaScript"
+            demoLink={"https://anwar-kashlan.github.io/Template-El-Zero/"}
             isResponsive={isResponsive}
           />
 
           <Project
             title="Project 7"
-            text="Bondi Template using Bootstrap only"
-            demoLink={"https://anwar-kashlan.github.io/Template-Bondi/"}
+            text="Kasper Template using pure Html,css and javaScript"
+            demoLink={"https://anwar-kashlan.github.io/Template-Kasper/"}
             isResponsive={isResponsive}
           />
 
