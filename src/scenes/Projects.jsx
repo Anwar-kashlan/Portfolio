@@ -98,7 +98,7 @@ const Projects = () => {
           />
           <Project
             title="Project 2"
-            text="React Responsive Media MERN App with Auth, Likes, Dark Mode ,Redux toolkit , MongoDB, MUI (My role is:Front end)"
+            text="React Responsive Media MERN App with Auth, Likes, Dark Mode ,Redux toolkit , MongoDB, MUI (My role is: Front end part)"
             demoLink={"https://media-app-eta.vercel.app/"}
             isResponsive={isResponsive}
           />
